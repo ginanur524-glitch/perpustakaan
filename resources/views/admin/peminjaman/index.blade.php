@@ -111,7 +111,8 @@
     </table>
 
     {{-- PAGINATION --}}
+    <div class="d-flex justify-content-center">
     {{ $data->withQueryString()->links() }}
-
+</div>
 </div>
 @endsection

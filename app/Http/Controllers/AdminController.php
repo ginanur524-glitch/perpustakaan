@@ -39,7 +39,6 @@ class AdminController extends Controller
     }
 
 
-
         // Simpan buku baru
         public function storeBuku(Request $request)
     {

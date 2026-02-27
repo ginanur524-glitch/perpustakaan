@@ -84,7 +84,7 @@
 
         @foreach ($siswa as $item)
         <tr>
-            <td>{{ $loop->iteration }}</td>
+            <td>{{ $siswa->firstItem() + $loop->index }}</td>
             <td>{{ $item->nama }}</td>
             <td>{{ $item->kelas }}</td>
             <td>
